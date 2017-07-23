@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": ["es2016", "dom"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "inlineSources": true,
+    "removeComments": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "dist"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  }
+}
